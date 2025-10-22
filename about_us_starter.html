@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us - E-Consulta</title>
+  <link href="https://fonts.googleapis.com/css2?family=Allan&family=Anton&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: linear-gradient(to bottom, #0118D8, #4E71FF, #A8F1FF, #FBFBFB);
+      font-family: 'Allan', cursive;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+    }
+    
+    .logo-container h1 {
+      font-family: 'Anton', sans-serif;
+      font-size: 50px;                  
+      color: #fff;
+      -webkit-text-stroke: 0.5px black;                       
+      letter-spacing: 2px;                                                
+    }
+
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .logo-container img {
+      height: 100px;
+      margin-left: -20px;
+      margin-top: 10px;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+    }
+
+    .navbar img {
+      width: 40px;
+      height: auto;
+      border-radius: 50%;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+
+    .navbar img:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 15px rgb(255, 225, 0);
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      letter-spacing: 1px;
+      padding: 8px 14px;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      transform: scale(1.1);
+      text-shadow: 0 0 5px rgb(255, 230, 0);
+      color: white;
+    }
+
+    .content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 20px;
+      height: calc(100vh - 150px);
+    }
+
+    .card-wrapper {
+      position: relative;
+      width: 1000px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      background-color: rgba(18, 35, 135, 0.93); 
+      padding: 40px;
+      border-radius: 20px;
+      width: 100%;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+      position: relative;
+      z-index: 2;
+      height: 400px;
+    }
+
+    .card h1 {
+      font-size: 70px;
+      font-weight: bold;
+      text-align: center;
+      color: white;
+      text-shadow: 2px 2px 4px #000;
+      font-family: 'Alfa Slab One';
+      letter-spacing: 10px;
+    }
+
+    .card p {
+      font-size: 22px;
+      margin-top: 30px;
+      line-height: 2.5;
+      text-align: center;
+      font-family: 'Arial Narrow', sans-serif;
+      color: #f1f1f1;
+    }
+
+    .image-right {
+      position: absolute;
+      right: -250px;
+      bottom: -110px;
+      width: 80%;
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    .image-right img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="logo.png" alt="Barangay Logo">
+      <h1>BARANGAY SAN MIGUEL</h1>
+    </div>
+    <div class="navbar">
+      <div class="nav-links">
+        <a href="start.html">HOME</a>
+        <a href="#">ABOUT US</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="content">
+    <div class="card-wrapper">
+      <div class="card">
+        <h1>ABOUT US</h1>
+        <p>
+          This system is a user friendly design that allows residents to schedule 
+          consultations and implement a queue management feature to minimize the 
+          waiting times at the health center. Bsbsbabbababdhsdhfjfkforugnhkhlgkgmc 
+          jdjdjskaan fbfhfhf sbasgcvanana ahdhazxcvbnmxcvbnmndfghjkjhgfdfghjhgfgh 
+          vdfghhtrtyukj gt54ertyhvcdfghgfdrtyuikjhgfdxcvhjiuytrertyu gfdertyhgfcxsrtbvccx 
+          vdfnfiouyf
+        </p>
+      </div>
+
+      <div class="image-right">
+        <img src="Avatar.svg" alt="Doctors Image">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
